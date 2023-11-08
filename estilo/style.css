@@ -1,0 +1,73 @@
+@charset "UTF-8";
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+ }
+
+ section#login{
+    
+    width: 250px;
+    height: 580px;
+    
+    border-radius: 10px;
+    background-color: lightgrey;
+    overflow: hidden;
+    
+    
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+ }
+
+    .foto{
+        height: 200px;
+        background-image: url(../imagens/metal.jpg);
+        background-position: left bottom;
+        background-size: cover;
+
+    }
+    h1{
+        text-align: center;
+        background-color: brown;
+        padding: 9px;
+        border-radius: 10px 10px 0px 0px;
+        color: white;
+        font-size: 2em;
+    }
+    form{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #campo{
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #campo input{
+        
+        padding: 10px;
+        margin: 2px;
+        border-radius: 10px;
+        cursor: pointer;        
+        
+    }
+    #campo input:focus-within{
+        background-color: rgb(126, 121, 121);
+        color: white;
+        font-weight: bolder;
+        
+    }
