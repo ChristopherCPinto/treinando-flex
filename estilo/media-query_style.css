@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and ( min-width:768px) {
+    section#login{
+    
+        width: 580px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: lightgrey;
+        overflow: hidden;
+        
+     }
+
+     .foto{
+        width: 50%;
+        height: 100%;
+        background-image: url(../imagens/metal.jpg);
+        background-position: left bottom;
+        background-size: cover;
+
+    }
+
+    form{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #campo{
+       display: flex;align-items: end;
+       justify-content: end;
+       flex-direction: column;
+       
+       
+    }
+    
+}
